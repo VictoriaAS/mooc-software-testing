@@ -18,7 +18,7 @@ public class VLeapYearTest {
      Assertions.assertTrue(leap);
     }
     @Test
-    public void nonLeapCenturialYear(){
+    public void nonLeapCenturialYear() {
         LeapYear ly = new LeapYear();
         boolean leap = ly.isLeapYear(1400);
         Assertions.assertFalse(leap);
